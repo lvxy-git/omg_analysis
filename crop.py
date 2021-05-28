@@ -2,6 +2,7 @@
 import cv2
 import os
 import numpy as np
+import capture
 
 # ultimate_positions = [[(692, 164), (788, 164), (884,164), (692, 266)]]
 # print(ultimate_positions[0][0])
@@ -10,23 +11,35 @@ ultimate_positions = [[], []]
 for i in range(2):
     for j in range(6):
         if i==1 and j == 0:
-            ultimate_positions[i].append((696 + j * 96, 164 + i * 102))
+            ultimate_positions[i].append((696 + j * 96, 166 + i * 100))
         else:
-            ultimate_positions[i].append((692 + j * 96, 164 + i * 102))
+            ultimate_positions[i].append((692 + j * 96, 166 + i * 100))
 print(ultimate_positions)
+skill_positions = [[],[],[],[],[],[]]
+for i in range(6):
+    for j in range(6):
+        skill_positions[i].append((730 + j * 78, 343 + i * 100))
+
 
 ultimate_list = []
+skill_image_list = []
 
 target = cv2.imread(r'target2.jpg')
-i = 2
 for i in range(2):
     for j in range(6):
         ultimate_list.append(target[ultimate_positions[i][j][1]:ultimate_positions[i][j][1] + 55,
                              ultimate_positions[i][j][0]:ultimate_positions[i][j][0] + 55])
-ultimates = np.hstack(ultimate_list)
-cv2.imshow('123', ultimates)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+for i in range(6):
+    for j in range(6):
+        skill_image_list.append(target[skill_positions[i][j][1]:skill_positions[i][j][1] + 40 + j*2,
+                                skill_positions[i][j][0]:skill_positions[i][j][0] + 45])
+
+# ultimates = np.hstack(skill_image_list)
+# cv2.imshow('123', ultimates)
+# print(skill_positions[0][0])
+# cv2.imshow('123', skill_image_list[2])
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
 
 
 def calculate(image1, image2):
@@ -133,52 +146,95 @@ def campHash(hash1, hash2):
             n = n + 1
     return n
 
-
-for i in range(len(ultimate_list)):
-    skill_ahash = ahash(ultimate_list[i])
-    skill_phash = phash(ultimate_list[i])
-    skill_dhash = dhash(ultimate_list[i])
-
-    max_ahash = 40
-    max_phash = 40
-    max_dhash = 40
-    ahash_real = ''
-    phash_real = ''
-    dhash_real = ''
+test_phash = phash(skill_image_list[0])
+test_max = 40
+test_phash_real = ''
+for skill in os.listdir(r'.\skill_image'):
+    test_compare = campHash(test_phash, phash(cv2.imread('.\\skill_image\\'+skill)))
+    if test_compare < test_max:
+        test_max = test_compare
+        test_phash_real = skill
+print(test_phash_real)
+    
 
 
-    for skill in os.listdir(r'.\ultimate_image'):
-        skill_image = cv2.imread('.\\ultimate_image\\' + skill)
-        # compare = classify_hist_with_split(skill_image, ultimate_list[i])
-        ahash_compare = campHash(skill_ahash, ahash(skill_image))
-        phash_compare = campHash(skill_phash, phash(skill_image))
-        dhash_compare = campHash(skill_dhash, dhash(skill_image))
-        # # if skill == 'disruptor_static_storm.jpg':
-        # print('c=' + str(max_ahash))
-        # print('c=' + str(max_phash))
-        # print('c=' + str(max_dhash))
-        if ahash_compare < max_ahash:
-            max_ahash = ahash_compare
-            ahash_real = skill
-        if phash_compare < max_phash:
-            max_phash = phash_compare
-            phash_real = skill
-        if dhash_compare < max_dhash:
-            max_dhash = dhash_compare
-            dhash_real = skill
+# skill_list = capture.get_skill_list()
+# ultimate_positions_list = sum(ultimate_positions, [])
+# for i in range(len(ultimate_list)):
+#     skill_ahash = ahash(ultimate_list[i])
+#     skill_phash = phash(ultimate_list[i])
+#     skill_dhash = dhash(ultimate_list[i])
+#
+#     max_ahash = 40
+#     max_phash = 40
+#     max_dhash = 40
+#     ahash_real = ''
+#     phash_real = ''
+#     dhash_real = ''
+#
+#
+#     for skill in os.listdir(r'.\ultimate_image'):
+#         skill_image = cv2.imread('.\\ultimate_image\\' + skill)
+#         # compare = classify_hist_with_split(skill_image, ultimate_list[i])
+#         ahash_compare = campHash(skill_ahash, ahash(skill_image))
+#         phash_compare = campHash(skill_phash, phash(skill_image))
+#         dhash_compare = campHash(skill_dhash, dhash(skill_image))
+#         # # if skill == 'disruptor_static_storm.jpg':
+#         # print('c=' + str(max_ahash))
+#         # print('c=' + str(max_phash))
+#         # print('c=' + str(max_dhash))
+#         if ahash_compare < max_ahash:
+#             max_ahash = ahash_compare
+#             ahash_real = skill
+#         if phash_compare < max_phash:
+#             max_phash = phash_compare
+#             phash_real = skill
+#         if dhash_compare < max_dhash:
+#             max_dhash = dhash_compare
+#             dhash_real = skill
+#
+#     real = ''
+#
+#     if ahash_real == phash_real:
+#         real = ahash_real
+#     elif ahash_real == dhash_real:
+#         real = ahash_real
+#     elif phash_real == dhash_real:
+#         real = phash_real
+#     elif min(max_ahash,max_dhash-2,max_phash) == max_ahash:
+#         real = ahash_real
+#     elif min(max_ahash,max_dhash-2,max_phash) == max_phash:
+#         real = phash_real
+#     elif min(max_ahash,max_dhash-2,max_phash) == max_dhash-2:
+#         real = dhash_real
+#
+#
+#
+#
+#
+#     # print(ahash_real)
+#     # print('c=' + str(max_ahash))
+#     #
+#     # print(phash_real)
+#     # print('c=' + str(max_phash))
+#     #
+#     # print(dhash_real)
+#     # print('c=' + str(max_dhash))
+#     # if min(max_ahash,max_dhash-2,max_phash) == max_ahash:
+#     #     print(ahash_real)
+#     # elif min(max_ahash,max_dhash-2,max_phash) == max_phash:
+#     #     print(phash_real)
+#     # elif min(max_ahash,max_dhash-2,max_phash) == max_dhash-2:
+#     #     print(dhash_real)
+#     cv2.putText(target, skill_list[real.split('.')[0]]['winRate']+'%', (ultimate_positions_list[i][0], ultimate_positions_list[i][1]-15),
+#                 cv2.FONT_HERSHEY_COMPLEX, 0.4, (84, 255, 159), 1, cv2.LINE_AA)
+#     cv2.putText(target, '(' + skill_list[real.split('.')[0]][
+#         'order'] + ')', (ultimate_positions_list[i][0], ultimate_positions_list[i][1]),
+#                 cv2.FONT_HERSHEY_COMPLEX, 0.4, (84, 255, 159), 1, cv2.LINE_AA)
+#     target = capture.cv2ImgAddText(target, skill_list[real.split('.')[0]]['name'], ultimate_positions_list[i][0], ultimate_positions_list[i][1]+55,(84, 255, 159),15)
+# cv2.imshow('',target)
+# cv2.waitKey()
+# cv2.destroyAllWindows()
 
-    #
-    # print(ahash_real)
-    # print('c=' + str(max_ahash))
 
-    print(phash_real)
-    print('c=' + str(max_phash))
 
-    # print(dhash_real)
-    # print('c=' + str(max_dhash))
-    # if min(max_ahash,max_dhash-2,max_phash) == max_ahash:
-    #     print(ahash_real)
-    # elif min(max_ahash,max_dhash-2,max_phash) == max_phash:
-    #     print(phash_real)
-    # elif min(max_ahash,max_dhash-2,max_phash) == max_dhash-2:
-    #     print(dhash_real)

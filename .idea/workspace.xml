@@ -1,12 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/crop.py" line="125" />
+    <bookmark url="file://$PROJECT_DIR$/crop.py" line="168" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96db26a2-03f1-45c5-ad9f-3de57ff4b4ed" name="Default Changelist" comment="提交crop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crop.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/abaddon_borrowed_time.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/abyssal_underlord_dark_rift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/alchemist_chemical_rage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/ancient_apparition_ice_blast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/antimage_mana_void.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/axe_culling_blade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/bane_fiends_grip.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/batrider_flaming_lasso.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/beastmaster_primal_roar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/bloodseeker_rupture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/bounty_hunter_track.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/brewmaster_primal_split.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/bristleback_warpath.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/broodmother_spawn_spiderlings.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/centaur_stampede.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/chaos_knight_phantasm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/chen_hand_of_god.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/clinkz_death_pact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/crystal_maiden_freezing_field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/dark_seer_wall_of_replica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/dark_willow_bedlam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/dawnbreaker_solar_guardian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/dazzle_bad_juju.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/death_prophet_exorcism.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/disruptor_static_storm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/doom_bringer_doom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/dragon_knight_elder_dragon_form.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/drow_ranger_marksmanship.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/earth_spirit_magnetize.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/earthshaker_echo_slam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/elder_titan_earth_splitter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/ember_spirit_fire_remnant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/enchantress_untouchable.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/enigma_black_hole.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/faceless_void_chronosphere.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/furion_wrath_of_nature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/grimstroke_soul_chain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/gyrocopter_call_down.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/hoodwink_sharpshooter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/huskar_life_break.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/jakiro_macropyre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/juggernaut_omni_slash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/keeper_of_the_light_spirit_form.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/kunkka_ghostship.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/legion_commander_duel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/leshrac_pulse_nova.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/lich_chain_frost.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/life_stealer_infest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/lone_druid_true_form.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/luna_eclipse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/lycan_shapeshift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/magnataur_reverse_polarity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/mars_arena_of_blood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/medusa_stone_gaze.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/mirana_invis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/monkey_king_wukongs_command.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/naga_siren_song_of_the_siren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/necrolyte_reapers_scythe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/nevermore_requiem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/night_stalker_darkness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/nyx_assassin_vendetta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/obsidian_destroyer_sanity_eclipse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/omniknight_guardian_angel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/oracle_false_promise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/pangolier_gyroshell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/phantom_assassin_coup_de_grace.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/phantom_lancer_juxtapose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/phoenix_supernova.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/puck_dream_coil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/pudge_dismember.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/pugna_life_drain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/queenofpain_sonic_wave.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/rattletrap_hookshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/razor_eye_of_the_storm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/riki_permanent_invisibility.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/sandking_epicenter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/shadow_demon_demonic_purge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/shadow_shaman_mass_serpent_ward.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/shredder_chakram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/silencer_global_silence.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/skeleton_king_reincarnation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/skywrath_mage_mystic_flare.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/slardar_amplify_damage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/slark_shadow_dance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/snapfire_mortimer_kisses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/sniper_assassinate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/spectre_haunt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/spirit_breaker_nether_strike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/storm_spirit_ball_lightning.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/sven_gods_strength.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/techies_remote_mines.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/templar_assassin_psionic_trap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/terrorblade_sunder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/tidehunter_ravage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/tinker_rearm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/tiny_grow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/treant_overgrowth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/troll_warlord_battle_trance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/tusk_walrus_punch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/undying_flesh_golem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/ursa_enrage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/vengefulspirit_command_aura.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/venomancer_poison_nova.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/viper_viper_strike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/visage_summon_familiars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/void_spirit_astral_step.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/warlock_rain_of_chaos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/weaver_time_lapse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/windrunner_focusfire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/winter_wyvern_winters_curse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/wisp_overcharge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/witch_doctor_death_ward.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_image/zuus_thundergods_wrath.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target2.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +129,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/omg_analysis$crop.coverage" NAME="crop Coverage Results" MODIFIED="1622172873811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/omg_analysis$rank.coverage" NAME="rank Coverage Results" MODIFIED="1621386621514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/omg_analysis$capture.coverage" NAME="capture Coverage Results" MODIFIED="1621328624277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/omg_analysis$match.coverage" NAME="match Coverage Results" MODIFIED="1619336963300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/omg_analysis$capture.coverage" NAME="capture Coverage Results" MODIFIED="1620711228492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/omg_analysis$crop.coverage" NAME="crop Coverage Results" MODIFIED="1622181939123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1203067365">
@@ -60,30 +173,60 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="901633332">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="258" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="258" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="jpg" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python/Python37/Lib/site-packages/numpy/__init__.pyi">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="184" lean-forward="true" selection-start-line="178" selection-start-column="6" selection-end-line="184" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-              <folding>
-                <element signature="e#24#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/Python/Lib/site-packages/PIL/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/match.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -125,15 +268,12 @@
     <option name="width" value="1861" />
     <option name="height" value="1087" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,17 +283,13 @@
             </path>
             <path>
               <item name="omg_analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omg_analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="skill_image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omg_analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,16 +457,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2663707" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36004162" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958376" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35939196" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -370,55 +506,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target.png" />
-    <entry file="file://D:/Python/Python37/Lib/site-packages/skimage/io/_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python/Python37/Lib/site-packages/skimage/io/_io.py" />
     <entry file="file://$PROJECT_DIR$/skill_image/一箭穿心.jpg" />
     <entry file="file://$PROJECT_DIR$/template.jpg" />
-    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/aircv/sift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="105" column="35" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/aircv/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-516756811/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226125">
-          <caret line="9082" column="4" selection-start-line="9082" selection-start-column="4" selection-end-line="9082" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/aircv/template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/http/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="955" selection-start-line="955" selection-end-line="955" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/match.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/__init__.py" />
+    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/aircv/sift.py" />
+    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/aircv/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-516756811/cv2/cv2/__init__.py" />
+    <entry file="file://D:/Python/Python37/Lib/site-packages/airtest/aircv/template.py" />
+    <entry file="file://D:/Python/Python37/Lib/http/client.py" />
     <entry file="file://$PROJECT_DIR$/skill_image/ancient_apparition_ice_blast.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -450,16 +546,6 @@
     <entry file="file://$PROJECT_DIR$/skill_image/beastmaster_primal_roar.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skill_image/gyrocopter_flak_cannon.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -472,25 +558,33 @@
     <entry file="file://$PROJECT_DIR$/skill_image/wisp_relocate.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target2.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://D:/Python/Python37/Lib/site-packages/numpy/__init__.pyi" />
+    <entry file="file://G:/Python/Lib/site-packages/PIL/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/numpy/__init__.pyi">
+    <entry file="file://$PROJECT_DIR$/capture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
+        <state relative-caret-position="262">
+          <caret line="40" column="33" selection-start-line="40" selection-end-line="40" selection-end-column="33" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/match.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/crop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="184" lean-forward="true" selection-start-line="178" selection-start-column="6" selection-end-line="184" />
         </state>
       </provider>
     </entry>

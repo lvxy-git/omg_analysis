@@ -1,7 +1,7 @@
 # -*- encoding=utf8 -*-
 import cv2
 import os
-import numpy
+import numpy as np
 
 # ultimate_positions = [[(692, 164), (788, 164), (884,164), (692, 266)]]
 # print(ultimate_positions[0][0])
@@ -21,37 +21,64 @@ for i in range(2):
     for j in range(6):
         ultimate_list.append(target[ultimate_positions[i][j][1]:ultimate_positions[i][j][1] + 60,
             ultimate_positions[i][j][0]:ultimate_positions[i][j][0] + 60])
-# ultimates = numpy.hstack(ultimate_list)
+# ultimates = np.hstack(ultimate_list)
 # cv2.imshow('123', ultimates)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
 
-def ahash(image):
-    # 将图片缩放为8*8的
-    image = cv2.resize(image, (8, 8), interpolation=cv2.INTER_CUBIC)
-    # 将图片转化为灰度图
-    gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-    # s为像素和初始灰度值，hash_str为哈希值初始值
-    s = 0
-    # 遍历像素累加和
-    for i in range(8):
-        for j in range(8):
-            s = s + gray[i, j]
-    # 计算像素平均值
-    avg = s / 64
-    # 灰度大于平均值为1相反为0，得到图片的平均哈希值，此时得到的hash值为64位的01字符串
-    ahash_str = ''
-    for i in range(8):
-        for j in range(8):
-            if gray[i, j] > avg:
-                ahash_str = ahash_str + '1'
+
+def calculate(image1, image2):
+    # 灰度直方图算法
+    # 计算单通道的直方图的相似值
+    hist1 = cv2.calcHist([image1], [0], None, [256], [0.0, 255.0])
+    hist2 = cv2.calcHist([image2], [0], None, [256], [0.0, 255.0])
+    # 计算直方图的重合度
+    degree = 0
+    for i in range(len(hist1)):
+        if hist1[i] != hist2[i]:
+            degree = degree + \
+                (1 - abs(hist1[i] - hist2[i]) / max(hist1[i], hist2[i]))
+        else:
+            degree = degree + 1
+    degree = degree / len(hist1)
+    return degree
+
+def classify_hist_with_split(image1, image2, size=(256, 256)):
+    # RGB每个通道的直方图相似度
+    # 将图像resize后，分离为RGB三个通道，再计算每个通道的相似值
+    image1 = cv2.resize(image1, size)
+    image2 = cv2.resize(image2, size)
+    sub_image1 = cv2.split(image1)
+    sub_image2 = cv2.split(image2)
+    sub_data = 0
+    for im1, im2 in zip(sub_image1, sub_image2):
+        sub_data += calculate(im1, im2)
+    sub_data = sub_data / 3
+    return sub_data
+
+def phash(img):
+    # 感知哈希算法
+    # 缩放32*32
+    img = cv2.resize(img, (32, 32))  # , interpolation=cv2.INTER_CUBIC
+
+    # 转换为灰度图
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    # 将灰度图转为浮点型，再进行dct变换
+    dct = cv2.dct(np.float32(gray))
+    # opencv实现的掩码操作
+    dct_roi = dct[0:8, 0:8]
+
+    hash = []
+    avreage = np.mean(dct_roi)
+    for i in range(dct_roi.shape[0]):
+        for j in range(dct_roi.shape[1]):
+            if dct_roi[i, j] > avreage:
+                hash.append(1)
             else:
-                ahash_str = ahash_str + '0'
-    result = ''
-    for i in range(0, 64, 4):
-        result += ''.join('%x' % int(ahash_str[i: i + 4], 2))
-    # print("ahash值：",result)
-    return result
+                hash.append(0)
+    return hash
+
+
 
 def campHash(hash1, hash2):
     n = 0
@@ -66,21 +93,21 @@ def campHash(hash1, hash2):
 
 
 for i in range(len(ultimate_list)):
-    skill_hash = ahash(ultimate_list[i])
+    skill_hash = phash(ultimate_list[i])
 
-    maxHash = 20
+    maxHash = 0
     real = ''
     for skill in os.listdir(r'.\skill_image'):
         skill_image = cv2.imread('.\skill_image\\'+skill)
-        a = ahash(skill_image)
-        compare = campHash(skill_hash, a)
-        # print(compare)
-        if compare < maxHash:
+        compare = classify_hist_with_split(skill_image, ultimate_list[i])
+        #compare = campHash(skill_hash, a)
+        if compare > maxHash:
             maxHash = compare
             real = skill
-    if maxHash<=8:
-        print(real)
-        print(maxHash)
+
+
+    print(real)
+    print(maxHash)
 
 
 
